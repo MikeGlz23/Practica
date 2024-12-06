@@ -9,7 +9,7 @@ modeloLibros.create([
     {
         "nombre": "1984",
         "año": "1949",
-        "autor": "Juan Perez",
+        "autor": "Juan  Perez",
     }, {
         "nombre": "Torito",
         "año": "1978",

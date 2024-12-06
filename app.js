@@ -3,7 +3,7 @@ import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 dotenv.config()
-import { test } from './Controllers/BookController.js'//faltaba import y error en controllers
+import { test } from './Controllers/BookController.js'//faltaba  import y error en controllers
 
 
 mongoose.connect(process.env.url)//mal escrito mongoose
