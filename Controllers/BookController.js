@@ -1,4 +1,4 @@
-import { modeloLibros } from "../Models/BookModel.js";
+import { modeloLibros } from "../Models/BookModel.js";//Error de letras
 
 modeloLibros.create([
     {
@@ -21,6 +21,6 @@ modeloLibros.create([
     },
 ]);
 
-export const test = () => {
-    console.log("Se han creado los nuevos Libros");
+export const test = () => {//faltaba el export
+    console.log("Se han creado los nuevos Libros");//faltaba log
 }
